@@ -1,4 +1,4 @@
-const socket = io('http://localhost:8000');
+const socket = io('https://chatter-app-socket-io.vercel.app/');
 //DOM elements from HTML file for editing through JS file
 const senderContainer = document.getElementById('msgSender');
 const msgInput = document.getElementById('messageEdit');
