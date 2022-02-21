@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background-image: linear-gradient(rgb(229, 228, 151), rgb(192, 189, 11));
+}
+h1 {
+  font-size: 30px;
+  margin-top: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  color: rgb(85, 56, 13);
+}
+
+.logo {
+  display: block;
+  margin: auto;
+  width: 60px;
+  height: 60px;
+}
+
+.container {
+  max-width: 700px;
+  background-color: rgba(235, 164, 11, 0.897);
+  margin: auto;
+  height: 65vh;
+  border-radius: 15px;
+  padding: 33px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+  box-shadow: 0 1.2rem 3rem 0.5rem rgba(0, 0, 0, 0.2);
+}
+
+.msg {
+  background-color: gold;
+  width: 35%;
+  padding: 10px;
+  margin: 15px 10px;
+  border: 2px solid rgb(156, 134, 11);
+  border-radius: 10px;
+}
+.msgLeft {
+  float: left;
+  clear: both;
+}
+
+.msgRight {
+  float: right;
+  clear: both;
+}
+
+#msgSender {
+  display: block;
+  margin: auto;
+  text-align: center;
+  max-width: 735px;
+  width: 100%;
+}
+
+#messageEdit {
+  width: 90%;
+  border: 2px solid rgb(102, 75, 18);
+  border-radius: 5px;
+  height: 35px;
+  font-size: 25px;
+}
+
+.btn {
+  cursor: pointer;
+  background-color: rgb(26, 23, 10);
+  border: 2px solid rgb(102, 75, 18);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+@media (max-width: 414px) {
+  .container {
+    width: 80%;
+  }
+  #messageEdit {
+    width: 75%;
+  }
+}
+
+@media (min-width: 415px) and (max-width: 737px) {
+  body {
+    height: 120vh;
+  }
+  .container {
+    width: 80%;
+  }
+  #messageEdit {
+    width: 80%;
+  }
+}

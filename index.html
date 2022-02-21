@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" type="image/png" href="media/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="js/client.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Chatter App</title>
+  </head>
+  <body>
+    <nav>
+      <img src="media/logo.png" alt="logo" class="logo" />
+      <h1>WELCOME TO CHATTER APP</h1>
+    </nav>
+    <div class="container">
+      <!-- <div class="msg msgLeft">Hi Bro</div>
+      <div class="msg msgRight">Hey How are You</div> -->
+    </div>
+    <div class="send">
+      <form action="#" id="msgSender">
+        <input
+          type="text"
+          name="messageEdit"
+          placeholder="Type Message..."
+          id="messageEdit"
+        />
+        <button class="btn" type="submit">
+          <img src="media/send.png" alt="send" width="30px" height="20px" />
+        </button>
+      </form>
+    </div>
+  </body>
+</html>
